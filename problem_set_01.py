@@ -61,7 +61,7 @@ print(''.join(['num_chars = ', str(num_chars), '\n']))
 num_char_chunks = 137
 
 # Note use of the built-in str() function to format num_char_chunks as a string.
-#print(''.join(['num_char_chunks = ', str(num_char_chunks), '\n']))
+print(''.join(['num_char_chunks = ', str(num_char_chunks), '\n']))
 # END 01D SOLUTION
 
 
