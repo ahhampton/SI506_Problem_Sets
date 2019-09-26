@@ -1,4 +1,4 @@
-# SETUP - Define list of UNESCO heritage sites in China, 1987-1992. In the future, such data
+# Define list of UNESCO heritage sites in China, 1987-1992. In the future, such data
 # will be provided in a file which you will read into python with some useful functions. However,
 # for today, the teaching team has provided this list for you to use.
 #
@@ -48,7 +48,6 @@ for item in great_wall_list:
 # the great_wall to a new string, in the following format (pay attention to spaces!):
 
 # "<heritage site name> is in <country>" (the <> names are placeholders that your code should replace)
-#
 # Save this string to the variable "great_wall_string"
 heritage_site_name = great_wall_list[1]
 country = great_wall_list[0]
@@ -64,7 +63,6 @@ print(new_list)
 
 # PROBLEM 6
 # Finally, put all you've learned together.
-#
 # Loop over all of china_unesco_sites, and using lists and string functions,
 # produce a new list named "unesco_sites". For each item in china_unesco_sites,
 # if the item is a Cultural site, append the information about that item to
